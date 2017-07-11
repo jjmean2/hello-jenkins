@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function(req, res) {
     console.log(req);
-    res.send('hello Jongwan');
+    res.send('How are you Jongwan');
 });
 
 app.listen(process.env.PORT || 5000);
